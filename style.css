@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Serif&family=PT+Serif&family=Rubik&family=Rubik+Glitch&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pro{
+    transform: rotate(39deg);
+}
+.nav-item{
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.nav-link{
+    margin-left: 24px;
+}
+.CV{
+    text-align: justify;
+}
+
+.contact{
+    background-color:mistyrose;
+    border-bottom:1px solid gray;
+}
+.footer{
+    background-color: mistyrose;
+}
+.home{
+    background-image:linear-gradient(white,mistyrose);
+    border-bottom:1px solid gray;
+}
+.about{
+    background-color:mistyrose;
+    border-bottom:1px solid gray;
+}
+.skills{
+    background-color:mistyrose;
+    border-bottom:1px solid gray;
+}
+.project{
+    background-color:mistyrose;
+    border-bottom:1px solid gray;
+}
+
+.r2-git{
+    margin-left: 280px;
+}
+.r2-fig{
+    margin-left: 130px;
+}
+.r2-xd{
+    margin-left: -20px;
+}
+
+@media screen and (max-width : 992px){
+    
+}
