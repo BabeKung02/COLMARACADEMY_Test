@@ -22,31 +22,12 @@
 .CV{
     text-align: justify;
 }
-
-.contact{
-    background-color:mistyrose;
+.my-name{
+    text-align: justify;
+}
+.contact,.home,.about,.skills,.project{
     border-bottom:1px solid gray;
 }
-.footer{
-    background-color: mistyrose;
-}
-.home{
-    background-image:linear-gradient(white,mistyrose);
-    border-bottom:1px solid gray;
-}
-.about{
-    background-color:mistyrose;
-    border-bottom:1px solid gray;
-}
-.skills{
-    background-color:mistyrose;
-    border-bottom:1px solid gray;
-}
-.project{
-    background-color:mistyrose;
-    border-bottom:1px solid gray;
-}
-
 .r2-git{
     margin-left: 280px;
 }
@@ -56,7 +37,294 @@
 .r2-xd{
     margin-left: -20px;
 }
+.skills{
+    position: relative;
+}
 
-@media screen and (max-width : 992px){
-    
+@media screen and (max-width : 1199px){
+    .my-name{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width : 991px){
+    .pic-skills{
+        display: grid;
+        grid-template-rows : 1fr 1fr;
+        margin-left: 30px;
+    }
+    .rbg{
+        position: relative;
+        left:-51px;
+        margin-top:50px;
+    }
+    .css{
+        position: relative;
+        left: 19px;
+    }
+    .r2-git{
+        position: relative;
+        right: 289px;
+        width: 80px;
+        height: 80px;
+    }
+    .r2-fig{
+      position: relative;
+      left: -115px;
+      width: 80px;
+      height: 80px;
+    }
+    .r2-xd{
+        position: relative;
+        right: -42px;
+        width: 80px;
+        height: 80px;
+    }
+    .r3{
+        position: relative;
+        bottom:25px
+    }
+    .contact-item{
+       justify-content: space-evenly;
+    }
+    .icon-ph{
+        margin-left: -30px;
+    }
+    .text-phone{
+        position: relative;
+        left:-50px
+    }
+    .text-em{
+        position: relative;
+        left:-16px
+    }
+}
+@media screen and (max-width : 767px){
+    .home{
+        position: relative;
+        top: 120px
+    }
+    .Hello{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .my-name{
+        text-align: justify; 
+    }
+    .about{
+        position: relative;
+        top:100px
+    }
+    .btn{
+        width: 225px;
+        position: relative;
+        left:-60px
+    }
+    .skills{
+        position: relative;
+        top:100px
+    }
+    .project{
+        position: relative;
+        top:100px
+    }
+    .contact{
+        position: relative;
+        top:100px
+    }
+    .footer{
+        position: relative;
+        top:100px
+    }
+    .css{
+        position: relative;
+        left:px;
+    }
+    .react{
+        position: relative;
+        top:-49px
+    }
+    .bootstrap,.gitt{
+        position: relative;
+        top:-136px
+    }
+    .r2-git{
+        position: relative;
+        right:269px
+    }
+    .r2-fig,.r2-git{
+        position: relative;
+        top:-200px
+    }
+    .r2-xd{
+        position: relative;
+        top:-190px; left:149px;
+    }
+}
+
+@media screen and (max-width : 575px){
+    .pic-skills{
+        width: 215px;
+        display: flex;
+        justify-content: center;
+    }
+    .html{
+        position: relative;
+        left:-39px;
+        width: 110px; height: 100px;
+    }
+    .css{
+        position: relative;
+        top:-98px; left:180px;
+        width: 75px; height: 100px;
+    }
+    .js{
+        position: relative;
+        top:-25px; right:39px;
+        width: 110px; height: 100px;
+    }
+    .react{
+        position: relative;
+        top:-165px; left:149px;
+        width: 110px; height: 90px;
+    }
+    .bootstrap{
+        position: relative;
+        top:-130px; left:-63px;
+        width: 110px; height: 90px;
+    }
+    .gitt{
+        position: relative;
+        top:-270px; left:145px;
+        width: 110px; height: 90px;
+        }
+    .r2-git{
+        position: relative;
+        top:-200px; left:-185px;
+        width: 110px; height: 90px;
+    }
+    .r2-fig{
+        position: relative;
+        top:-293px; left:99px;
+        
+    }
+    .r2-xd{
+        position: relative;
+        top:-210px; left:75px;
+        width: 95px; height: 90px;
+    }
+}
+@media screen and (max-width : 510px){
+    .home{
+        position: relative;
+        top: 150px
+    }
+    .about{
+        position: relative;
+        top:130px
+    }
+    .my-name{
+        text-align: center; 
+    }
+    .pic-skills{
+        width: 215px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: -15px;
+    }
+
+}
+@media screen and (max-width : 480px){
+    .home{
+        position: relative;
+        top: 250px
+    }
+    .about{
+        position: relative;
+        top:230px
+    }
+    .my-name{
+        text-align: center; 
+    }
+    .pic-skills{
+        width: 215px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: -35px;
+    }
+    .skills{
+        position: relative;
+        top:240px;
+    }
+    .project{
+        position: relative;
+        top:240px;
+        margin-bottom: 200px;
+    }
+    .contact{
+        position: relative;
+        top:50px;
+    }
+    .footer{
+        position: relative;
+        top:50px;
+    }
+}
+@media screen and (max-width : 420px){
+.pic-skills{
+    width: 215px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:-80px;
+    }
+    .skills{
+        position: relative;
+        top:240px;
+    }
+    .project{
+        position: relative;
+        top:240px;
+        margin-bottom: 200px;
+    }
+    .contact{
+        position: relative;
+        top:50px;
+    }
+    .footer{
+        position: relative;
+        top:50px;
+    }
+    .btn{
+        
+    }
+}
+
+@media screen and (max-width : 390px){
+    .skills{
+        position: relative;
+        top:240px;
+    }
+    .project{
+        position: relative;
+        top:240px;
+        margin-bottom: 200px;
+    }
+    .contact{
+        position: relative;
+        top:50px;
+    }
+    .footer{
+        position: relative;
+        top:50px;
+    }
+    .pic-skills{
+        width: 215px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: -93px;
+    }
 }
