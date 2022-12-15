@@ -56,27 +56,39 @@
     .rbg{
         position: relative;
         left:-51px;
-        margin-top:50px;
+        top:60px;
+    }
+    .html{
+        position: relative;
+        top:40px;
     }
     .css{
         position: relative;
         left: 19px;
+        top:40px;
+    }
+    .js{
+        position: relative;
+        top:40px;
     }
     .r2-git{
         position: relative;
         right: 289px;
+        top:60px;
         width: 80px;
         height: 80px;
     }
     .r2-fig{
       position: relative;
       left: -115px;
+      top:60px;
       width: 80px;
       height: 80px;
     }
     .r2-xd{
         position: relative;
         right: -42px;
+        top:60px;
         width: 80px;
         height: 80px;
     }
@@ -84,6 +96,7 @@
         position: relative;
         bottom:25px
     }
+
     .contact-item{
        justify-content: space-evenly;
     }
@@ -138,27 +151,44 @@
     }
     .css{
         position: relative;
-        left:px;
+        left:50px;
+    }
+    .js{
+        position: relative;
+        top:80px;
     }
     .react{
         position: relative;
-        top:-49px
+        top:80px;
+        left:-25px;
     }
     .bootstrap,.gitt{
         position: relative;
-        top:-136px
+        top:130px
+    }
+    .gitt{
+        position: relative;
+        left:-25px;
     }
     .r2-git{
         position: relative;
-        right:269px
+        right:269px;
     }
     .r2-fig,.r2-git{
         position: relative;
-        top:-200px
+        top:155px;
+    }
+    .r2-fig{
+        position: relative;
+        left:-85px;
     }
     .r2-xd{
         position: relative;
-        top:-190px; left:149px;
+        top:150px; left:159px;
+    }
+    .pic-skills{
+        position: relative;
+        top:-40px; 
     }
 }
 
@@ -175,43 +205,43 @@
     }
     .css{
         position: relative;
-        top:-98px; left:180px;
+        top:-59px; left:180px;
         width: 75px; height: 100px;
     }
     .js{
         position: relative;
-        top:-25px; right:39px;
+        top:49px; right:39px;
         width: 110px; height: 100px;
     }
     .react{
         position: relative;
-        top:-165px; left:149px;
+        top:-36px; left:149px;
         width: 110px; height: 90px;
     }
     .bootstrap{
         position: relative;
-        top:-130px; left:-63px;
+        top:70px; left:-63px;
         width: 110px; height: 90px;
     }
     .gitt{
         position: relative;
-        top:-270px; left:145px;
+        top:-30px; left:145px;
         width: 110px; height: 90px;
         }
     .r2-git{
         position: relative;
-        top:-200px; left:-185px;
+        top:80px; left:-178px;
         width: 110px; height: 90px;
     }
     .r2-fig{
         position: relative;
-        top:-293px; left:99px;
-        
+        top:-10px; left:105px;
+        width: 120px; height: 90px;
     }
     .r2-xd{
         position: relative;
-        top:-210px; left:75px;
-        width: 95px; height: 90px;
+        top:60px; left:75px;
+        width: 90px; height: 85px;
     }
 }
 @media screen and (max-width : 510px){
@@ -274,11 +304,8 @@
 }
 @media screen and (max-width : 420px){
 .pic-skills{
-    width: 215px;
-    display: flex;
-    justify-content: center;
     position: relative;
-    left:-80px;
+    left:-63px;
     }
     .skills{
         position: relative;
@@ -296,9 +323,6 @@
     .footer{
         position: relative;
         top:50px;
-    }
-    .btn{
-        
     }
 }
 
@@ -321,10 +345,25 @@
         top:50px;
     }
     .pic-skills{
-        width: 215px;
-        display: flex;
-        justify-content: center;
         position: relative;
-        left: -93px;
+        left: -81px;
+    }
+}
+@media screen and (max-width : 390px){
+    .pic-skills{
+        position: relative;
+        left: -90px;
+    }
+}
+@media screen and (max-width : 350px){
+    .pic-skills{
+        position: relative;
+        left: -100px;
+    }
+}
+@media screen and (max-width : 320px){
+    .pic-skills{
+        position: relative;
+        left: -127px;
     }
 }
