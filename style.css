@@ -41,12 +41,31 @@
     position: relative;
 }
 
-@media screen and (max-width : 1199px){
+@media screen and (min-width : 1024px) and (max-width : 1200px){
     .my-name{
         text-align: left;
     }
+    .pic-skills{
+        width: 180px;
+    }
+    .css{
+        margin-left: 18px;
+    }
+    .r2-git{
+        width: 75px;
+        margin-right:-50px;
+    }
+    .r2-fig{
+        width: 80px;
+        height: 88px;
+    }
+    .r2-xd{
+        width: 75px;
+    }
+    .r2-git,.r2-fig,.r2-xd{
+        position: relative; left:-30px;
+    }
 }
-
 @media screen and (max-width : 991px){
     .pic-skills{
         display: grid;
@@ -64,7 +83,7 @@
     }
     .css{
         position: relative;
-        left: 19px;
+        left: 2px;
         top:40px;
     }
     .js{
@@ -152,6 +171,7 @@
     .css{
         position: relative;
         left:50px;
+        margin-right: 18px;
     }
     .js{
         position: relative;
@@ -263,7 +283,6 @@
         position: relative;
         left: -15px;
     }
-
 }
 @media screen and (max-width : 480px){
     .home{
